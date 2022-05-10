@@ -1,0 +1,43 @@
+{
+	"$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+	"manifestVersion": "1.7",
+	"version": "1.0.0",
+	"id": "40F97130-1652-417D-85DB-E47660D03027",
+	"packageName": "com.microsoft.teams.celaengagement",
+	"developer": {
+		"name": "Microsoft",
+		"websiteUrl": "https://support.giphy.com",
+		"privacyUrl": "https://support.giphy.com/hc/en-us/articles/360032872931-GIPHY-Privacy-Policy",
+		"termsOfUseUrl": "https://support.giphy.com/hc/en-us/articles/360020027752-GIPHY-User-Terms-of-Service"
+	},
+	"icons": {
+		"color": "color.png",
+		"outline": "outline.png"
+	},
+	"name": {
+		"short": "Modern CELA Engagement",
+		"full": ""
+	},
+	"description": {
+		"short": "Modern CELA Engagement for Microsof Teams",
+		"full": "Hackathon bot which is used to search data from sharepoint search"
+	},
+	"accentColor": "#FFFFFF",
+	"bots": [
+		{
+			"botId": "1adbaaec-e1c5-4215-9eb6-9da0187ac3e1",
+			"scopes": [
+				"personal",
+				"team",
+				"groupchat"
+			],
+			"supportsFiles": false,
+			"isNotificationOnly": false
+		}
+	],
+	"permissions": [
+		"identity",
+		"messageTeamMembers"
+	],
+	"validDomains": []
+}
